@@ -15,8 +15,8 @@ export class HeroesComponent implements OnInit {
   
   
   selectedHero: Hero;
-
-  
+//creates selectedHero property but does not assign it
+ //previously assigned 
   constructor() { }
 
   ngOnInit() {
