@@ -1,3 +1,9 @@
 <h1>{{title}}</h1>
+<nav>
+    <!-- routerlink is selector for RouterLink Directive -->
+    <a routerLink="/heroes">Heroes</a>
+</nav>
 
-<app-heroes></app-heroes>
+<!-- router outlet tells router to display routed views, so hard coding heroes component isnt necessary anymore -->
+<router-outlet></router-outlet>
+<app-messages></app-messages>
